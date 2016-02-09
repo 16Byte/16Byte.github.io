@@ -1,109 +1,712 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
   <title>Land of Bytes</title>
-  <meta name="description" content="16Byte&#39;s Website">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
 
 <body>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Land of Bytes</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">16Byte&#39;s Website</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/16Byte" class="code">View Land of Bytes on GitHub</a>
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Welcome to <span>Land of Bytes</span></h1>
+            <p class="animated fadeInRightBig">Game Developement - Design - Mods - Tutorials</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Check it out</a>
+          </div>
         </div>
-        <span class="blc"></span><span class="trc"></span>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Over <span> 20 Games</span> Worked On</h1>
+            <p class="animated fadeInRightBig">Game Developement - Design - Mods - Tutorials</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Check it out</a>
+          </div>
         </div>
-        <article class="markdown-body">
-          <p><img src="https://pbs.twimg.com/profile_images/584372221549928449/QuaZORXA.jpg" alt=""></p>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">We are <span>Creative</span></h1>
+            <p class="animated fadeInRightBig">Game Developement - Design - Mods - Tutorials</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Check it out</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
 
-<p>Twitter: <a href="https://twitter.com/16Byte_">@16Byte_</a> </p>
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
 
-<h1>
-<a id="this-is-my-website" class="anchor" href="#this-is-my-website" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>This is my website!</strong>
-</h1>
-
-<h2>
-<a id="i-will-be-using-this-website-to-inform-you-guys-of-current-projects-server-statuses-and-anything-else-i-may-be-working-on-such-as-games-mods-or-applications" class="anchor" href="#i-will-be-using-this-website-to-inform-you-guys-of-current-projects-server-statuses-and-anything-else-i-may-be-working-on-such-as-games-mods-or-applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>I will be using this website to inform you guys of; Current projects, Server Statuses and anything else I may be working on such as; Games, Mods, or Applications.</h2>
-
-<h1>
-<a id="12302015-talking-about-my-games" class="anchor" href="#12302015-talking-about-my-games" aria-hidden="true"><span class="octicon octicon-link"></span></a>12/30/2015: Talking about my games</h1>
-
-<h2>
-<a id="hows-it-going-everyone-long-time-since-ive-updated-this-website-i-just-wanted-to-talk-a-little-bit-about-what-my-goals-have-been-in-making-games-and-what-the-future-of-game-development-holds-for-me-i-started-making-games-at-the-age-of-9-i-make-games-for-personal-joy-of-putting-my-feelings-and-deepest-desires-into-an-interactive-platform-that-i-can-play-through-its-the-equivalent-of-someone-writing-a-song-the-entire-time-ive-started-making-games-people-have-asked-when-will-i-be-releasing-my-games-my-answer-is-always-simply-i-wont-be-not-because-i-dont-think-they-would-do-well-but-because-i-always-make-games-to-push-my-limits-and-i-am-always-putting-my-deepest-feelings-into-my-game-and-in-a-way-im-scared-to-share-that-with-the-world" class="anchor" href="#hows-it-going-everyone-long-time-since-ive-updated-this-website-i-just-wanted-to-talk-a-little-bit-about-what-my-goals-have-been-in-making-games-and-what-the-future-of-game-development-holds-for-me-i-started-making-games-at-the-age-of-9-i-make-games-for-personal-joy-of-putting-my-feelings-and-deepest-desires-into-an-interactive-platform-that-i-can-play-through-its-the-equivalent-of-someone-writing-a-song-the-entire-time-ive-started-making-games-people-have-asked-when-will-i-be-releasing-my-games-my-answer-is-always-simply-i-wont-be-not-because-i-dont-think-they-would-do-well-but-because-i-always-make-games-to-push-my-limits-and-i-am-always-putting-my-deepest-feelings-into-my-game-and-in-a-way-im-scared-to-share-that-with-the-world" aria-hidden="true"><span class="octicon octicon-link"></span></a>How's it going everyone? Long time since I've updated this website! I just wanted to talk a little bit about what my goals have been in making games and what the future of game development holds for me. I started making games at the age of 9. I make games for personal joy of putting my feelings and deepest desires into an interactive platform that I can play through. It's the equivalent of someone writing a song. The entire time I've started making games people have asked when will I be releasing my games, my answer is always simply I won't be. Not because I don't think they would do well but because I always make games to push my limits and I am always putting my deepest feelings into my game and in a way I'm scared to share that with the world.</h2>
-
-<h2>
-<a id="so-what-does-this-mean-for-the-future-of-my-game-development-career-i-am-going-to-keep-making-games-for-my-pleasure-but-i-have-recently-decided-to-make-the-game-of-all-games-the-one-that-i-put-my-heart-and-sole-into-so-you-all-can-see-what-i-love-doing-most-so-in-this-article-i-confirm-that-i-will-be-working-on-a-new-game-that-is-not-fully-planned-out-yet-but-will-be-developed-and-released-sometime-next-year-or-the-beginning-of-next-year-or-just-whenever-i-feel-like-it-to-be-honest" class="anchor" href="#so-what-does-this-mean-for-the-future-of-my-game-development-career-i-am-going-to-keep-making-games-for-my-pleasure-but-i-have-recently-decided-to-make-the-game-of-all-games-the-one-that-i-put-my-heart-and-sole-into-so-you-all-can-see-what-i-love-doing-most-so-in-this-article-i-confirm-that-i-will-be-working-on-a-new-game-that-is-not-fully-planned-out-yet-but-will-be-developed-and-released-sometime-next-year-or-the-beginning-of-next-year-or-just-whenever-i-feel-like-it-to-be-honest" aria-hidden="true"><span class="octicon octicon-link"></span></a>So what does this mean for the future of my game development "career"? I am going to keep making games for my pleasure but, I have recently decided to make the game of all games. The one that I put my heart and sole into so you all can see what I love doing most. So in this article I confirm that I will be working on a new game that is not fully planned out yet but will be developed and released sometime next year or the beginning of next year, or just whenever I feel like it to be honest.</h2>
-
-<p>-Diego Jimenez
-16Byte</p>
-
-<h1>
-<a id="07272015-funding" class="anchor" href="#07272015-funding" aria-hidden="true"><span class="octicon octicon-link"></span></a>07/27/2015: Funding</h1>
-
-<h2>
-<a id="ill-be-honest-i-wantneed-to-make-a-kickstarter-but-like-i-have-nothing-to-give-you-guys-lol-ill-just-make-a-donate-button-on-this-site-if-you-guys-feel-like-donating" class="anchor" href="#ill-be-honest-i-wantneed-to-make-a-kickstarter-but-like-i-have-nothing-to-give-you-guys-lol-ill-just-make-a-donate-button-on-this-site-if-you-guys-feel-like-donating" aria-hidden="true"><span class="octicon octicon-link"></span></a>I'll be honest I want/need to make a kickstarter but like I have nothing to give you guys lol. I'll just Make a donate button on this site if you guys feel like donating.</h2>
-
-<h1>
-<a id="07272015-small-game-planned" class="anchor" href="#07272015-small-game-planned" aria-hidden="true"><span class="octicon octicon-link"></span></a>07/27/2015: Small Game Planned</h1>
-
-<h2>
-<a id="ive-planned-to-make-a-small-game-so-that-you-guys-can-play-with-it-until-simplicity-is-ready-for-testing-it-should-be-ready-in-about-1-month-or-less-if-i-keep-working-on-it-while-all-of-the-preparations-are-made-for-simplicity" class="anchor" href="#ive-planned-to-make-a-small-game-so-that-you-guys-can-play-with-it-until-simplicity-is-ready-for-testing-it-should-be-ready-in-about-1-month-or-less-if-i-keep-working-on-it-while-all-of-the-preparations-are-made-for-simplicity" aria-hidden="true"><span class="octicon octicon-link"></span></a>I've planned to make a small game so that you guys can play with it until Simplicity is ready for testing. It should be ready in about 1 month or less if I keep working on it while all of the preparations are made for Simplicity.</h2>
-
-<h1>
-<a id="07272015-currently-working-on-simplicity" class="anchor" href="#07272015-currently-working-on-simplicity" aria-hidden="true"><span class="octicon octicon-link"></span></a>07/27/2015 Currently Working on Simplicity!</h1>
-
-<h2>
-<a id="simplicity-is-a-game-ive-been-thinking-aboutmaking-since-i-was-11-im-finally-proud-to-say-that-i-will-be-working-on-it-full-time-if-you-would-like-to-see-more-of-this-message-or-follow-me-on-twitter" class="anchor" href="#simplicity-is-a-game-ive-been-thinking-aboutmaking-since-i-was-11-im-finally-proud-to-say-that-i-will-be-working-on-it-full-time-if-you-would-like-to-see-more-of-this-message-or-follow-me-on-twitter" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simplicity is a game I've been thinking about/Making since I was 11. I'm finally proud to say that I will be working on it full time! If you would like to see more of this message or follow me on twitter.</h2>
-        </article>
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><font color="white"><img class="img-responsive" src="" alt="Land of Bytes"></font></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#services">Services</a></li> 
+            <li class="scroll"><a href="#about-us">About Me</a></li>                     
+            <li class="scroll"><a href="#portfolio">Games</a></li>
+            <!--<li class="scroll"><a href="#team"></a></li>-->
+            <li class="scroll"><a href="#blog">Blog</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>       
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-flask"></i>
+            </div>
+            <div class="service-info">
+              <h3>Programming</h3>
+              <p>C, C++, C#, JS, Java, Ruby, Python, PHP, HTML, Boo, Lua, JQuery, JSON, Assembly, Binary.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fa fa-umbrella"></i>
+            </div>
+            <div class="service-info">
+              <h3>Creative Ideas</h3>
+              <p>Constantly coming up with new ideas for games and graphics projects to work on.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fa fa-cloud"></i>
+            </div>
+            <div class="service-info">
+              <h3>Awesome Support</h3>
+              <p>Constant support from the twitter community and all the amazing forums that are available.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fa fa-coffee"></i>
+            </div>
+            <div class="service-info">
+              <h3>Professional Design</h3>
+              <p>I have been creating games and 3D modelling for about 4 years now. So I consider myself somewhat professional.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-icon">
+              <i class="fa fa-bitbucket"></i>
+            </div>
+            <div class="service-info">
+              <h3>App Development</h3>
+              <p>I have created over 20 apps and games. Only one of them has been released, however.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="service-icon">
+              <i class="fa fa-gift"></i>
+            </div>
+            <div class="service-info">
+              <h3>Clean Code</h3>
+              <p>Okay I lie, but seriously I think I'm better than I was 4 years ago.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <footer>
-      <div class="owner">
-
-      <p><a href="https://github.com/16Byte" class="avatar"><img src="https://avatars0.githubusercontent.com/u/11307418?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/16Byte">16Byte</a> on <a href="https://www.github.com">GitHub</a></p>
-
+  </section><!--/#services-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About Me</h2>
+            <p>Okay so I guess I have to talk about myself a bit here don't I? </p>
+            <p>My name is Diego Jimenez, also known as 16Byte. I am a 16 year old independent game developer. I've been developing games for about 4 years now. I have created games such as, Battle of the Pixels, Aether, Frames, Block Finder, and Earth. I plan to make games for the rest of my life and hopefully get good enough to re-start my company. </p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">Quality of Games</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">95%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Web Design Skills</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <p class="lead">Programming</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="97">97%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">Fun</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/16Byte/16Byte.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/16Byte/16Byte.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+    </div>
+  </section><!--/#about-us-->
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-65678324-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Game Gallery</h2>
+          <p>A spotlight of some of the games I've made.</p>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Frames</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Earth</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Block Finder</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Think outside the box.</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>PixelCraft</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Abyss</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>The Jewel</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>The Team</h2>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/QuaZORXA.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Diego Jimenez</h3>
+                <h4>CEO &amp; Founder</h4>
+                <p>Likes to create new worlds in his free time.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <!--<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>-->
+                  <li><a class="twitter" href="twitter.com/16Byte_"><i class="fa fa-twitter"></i></a></li>
+                  <!--<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>-->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>
+  </section><!--/#team-->
+
+  <section id="features" class="parallax">
+    <div class="container">
+      <div class="row count">
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <i class="fa fa-user"></i>
+          <h3 class="timer">200</h3>
+          <p>Followers</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <i class="fa fa-desktop"></i>
+          <h3 class="timer">20</h3>                    
+          <p>Games</p>
+        </div> 
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <i class="fa fa-trophy"></i>
+          <h3 class="timer">0</h3>                    
+          <p>Awards</p>
+        </div> 
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+          <i class="fa fa-comment-o"></i>                    
+          <h3>24/7; unless I'm asleep</h3>
+          <p>Q/A</p>
+        </div>                 
+      </div>
+    </div>
+  </section><!--/#features-->
+
+  <!--<section id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Pricing Table</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+        </div>
+      </div>
+      <div class="pricing-table">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <h3>Basic</h3>
+              <div class="price">
+                $9<span>/Month</span>                          
+              </div>
+              <ul>
+                <li>Free Setup</li>
+                <li>10GB Storage</li>
+                <li>100GB Bandwith</li>
+                <li>5 Products</li>
+              </ul>
+              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <h3>Standard</h3>
+              <div class="price">
+                $19<span>/Month</span>                                
+              </div>
+              <ul>
+                <li>Free Setup</li>
+                <li>10GB Storage</li>
+                <li>100GB Bandwith</li>
+                <li>5 Products</li>
+              </ul>
+              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <h3>Featured</h3>
+              <div class="price">
+                $29<span>/Month</span>                                
+              </div>
+              <ul>
+                <li>Free Setup</li>
+                <li>10GB Storage</li>
+                <li>100GB Bandwith</li>
+                <li>5 Products</li>
+              </ul>
+              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <h3>Professional</h3>
+              <div class="price">
+                $49<span>/Month</span>                    
+              </div>
+              <ul>
+                <li>Free Setup</li>
+                <li>10GB Storage</li>
+                <li>100GB Bandwith</li>
+                <li>5 Products</li>
+              </ul>
+              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#pricing-->-->
+
+  <section id="twitter" class="parallax">
+    <div>
+      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="twitter-icon text-center">
+              <i class="fa fa-twitter"></i>
+              <h4>16Byte_</h4>
+            </div>
+            <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <!--<div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
+                </div>
+                <div class="item">
+                  <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
+                </div>
+                <div class="item">                                
+                  <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>-->
+                </div>
+              </div>                        
+            </div>                    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#twitter-->
+
+  <!--<section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Blog Posts</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+        </div>
+      </div>
+      <div class="blog-posts">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="post-thumb">
+              <a href="#"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a> 
+              <div class="post-meta">
+                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                <span><i class="fa fa-heart"></i> 0 Likes</span> 
+              </div>
+              <div class="post-icon">
+                <i class="fa fa-pencil"></i>
+              </div>
+            </div>
+            <div class="entry-header">
+              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+              <span class="date">June 26, 2014</span>
+              <span class="cetagory">in <strong>Photography</strong></span>
+            </div>
+            <div class="entry-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="post-thumb">
+              <div id="post-carousel"  class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#post-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#post-carousel" data-slide-to="1"></li>
+                  <li data-target="#post-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <a href="#"><img class="img-responsive" src="images/blog/2.jpg" alt=""></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"><img class="img-responsive" src="images/blog/3.jpg" alt=""></a>
+                  </div>
+                </div>                               
+                <a class="blog-left-control" href="#post-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="blog-right-control" href="#post-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+              </div>                            
+              <div class="post-meta">
+                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                <span><i class="fa fa-heart"></i> 0 Likes</span> 
+              </div>
+              <div class="post-icon">
+                <i class="fa fa-picture-o"></i>
+              </div>
+            </div>
+            <div class="entry-header">
+              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+              <span class="date">June 26, 2014</span>
+              <span class="cetagory">in <strong>Photography</strong></span>
+            </div>
+            <div class="entry-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="post-thumb">
+              <a href="#"><img class="img-responsive" src="images/blog/3.jpg" alt=""></a>
+              <div class="post-meta">
+                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                <span><i class="fa fa-heart"></i> 0 Likes</span> 
+              </div>
+              <div class="post-icon">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div class="entry-header">
+              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+              <span class="date">June 26, 2014</span>
+              <span class="cetagory">in <strong>Photography</strong></span>
+            </div>
+            <div class="entry-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>                    
+        </div>
+        <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>
+        </div>                
+      </div>
+    </div>
+  </section><!--/#blog-->
+
+  <section id="contact">
+    <div id="google-map" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want me to help you make your next project let me know by shooting me an email down below. I will most likely get back to you withing 24 hours.</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Send Now</button>
+                </div>
+              </form>   
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                
+                <ul class="address">
+                  
+                 
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:pixeldevs.diego@gmail.com"> pixeldevs.diego@gmail.com</a></li>
+                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="16Byte.github.io">Well I mean you're kinda on the website.</a></li>
+                </ul>
+              </div>                            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#contact-->
+  <footer id="footer">
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2016 Land of Bytes.</p>
+          </div>
+          <div class="col-sm-6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
